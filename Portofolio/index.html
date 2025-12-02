@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio – Ivan Hernando</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome untuk GitHub icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">MyPortfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <img src="img/PhotoProfile.jpg" class="profile-img" alt="foto profil">
+        <h1>Hallo, I'm <span>Ivan Hernando</span></h1>
+        <p>
+            Undergraduate 5th-semester Computer Science student at Bina Nusantara University with a strong interest in Web Development, IT Support, IoT, AI/ML, and Computer Network. Passionate about collaboration and building 
+            innovative solutions.
+        </p>
+
+        <div class="btn-group">
+            <a href="#projects" class="btn-primary">My Projects</a>
+            <a href="#contact" class="btn-secondary">Contact Me</a>
+        </div>
+    </section>
+    <section class="tech-section fade-in">
+
+
+    <h2 class="section-title">Technologies <span>I Work With</span></h2>
+
+    <div class="tech-slider">
+        <div class="tech-track">
+            <img src="tech-icons/android.png" alt="android">
+            <img src="tech-icons/arduino.png" alt="Arduino">
+            <img src="tech-icons/c.png" alt="">
+            <img src="tech-icons/cisco.png" alt="">
+            <img src="tech-icons/css.png" alt="">
+            <img src="tech-icons/figma.png" alt="">
+            <img src="tech-icons/html.png" alt="">
+            <img src="tech-icons/java.png" alt="">
+            <img src="tech-icons/javascript.png" alt="">
+            <img src="tech-icons/mysql.png" alt="">
+            <img src="tech-icons/python.png" alt="">
+            <img src="tech-icons/unity.png" alt="">
+            <img src="tech-icons/vscode.png" alt="">
+
+            <img src="tech-icons/android.png" alt="">
+            <img src="tech-icons/arduino.png" alt="">
+            <img src="tech-icons/c.png" alt="">
+            <img src="tech-icons/cisco.png" alt="">
+            <img src="tech-icons/css.png" alt="">
+            <img src="tech-icons/figma.png" alt="">
+            <img src="tech-icons/html.png" alt="">
+            <img src="tech-icons/java.png" alt="">
+            <img src="tech-icons/javascript.png" alt="">
+            <img src="tech-icons/mysql.png" alt="">
+            <img src="tech-icons/python.png" alt="">
+            <img src="tech-icons/unity.png" alt="">
+            <img src="tech-icons/vscode.png" alt="">
+
+            <img src="tech-icons/android.png" alt="">
+            <img src="tech-icons/arduino.png" alt="">
+            <img src="tech-icons/c.png" alt="">
+            <img src="tech-icons/cisco.png" alt="">
+            <img src="tech-icons/css.png" alt="">
+            <img src="tech-icons/figma.png" alt="">
+            <img src="tech-icons/html.png" alt="">
+            <img src="tech-icons/java.png" alt="">
+            <img src="tech-icons/javascript.png" alt="">
+            <img src="tech-icons/mysql.png" alt="">
+            <img src="tech-icons/python.png" alt="">
+            <img src="tech-icons/unity.png" alt="">
+            <img src="tech-icons/vscode.png" alt="">
+
+            <img src="tech-icons/android.png" alt="">
+            <img src="tech-icons/arduino.png" alt="">
+            <img src="tech-icons/c.png" alt="">
+            <img src="tech-icons/cisco.png" alt="">
+            <img src="tech-icons/css.png" alt="">
+            <img src="tech-icons/figma.png" alt="">
+            <img src="tech-icons/html.png" alt="">
+            <img src="tech-icons/java.png" alt="">
+            <img src="tech-icons/javascript.png" alt="">
+            <img src="tech-icons/mysql.png" alt="">
+            <img src="tech-icons/python.png" alt="">
+            <img src="tech-icons/unity.png" alt="">
+            <img src="tech-icons/vscode.png" alt="">
+        </div>
+    </div>
+</section>
+
+    <!-- PROJECTS SECTION -->
+<section id="projects" class="projects-section">
+    <h2 class="section-title fade-in">Projects</h2>
+
+    <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card-v2 fade-in">
+
+            <div class="project-thumb"
+                onclick="openModal(
+                    ['img/barakos.png','img/barakos1.png'],
+                    'Barakos Website',
+                    'A website prototype for renting items, especially household necessities.'
+                )">
+                <img src="img/barakos.png" alt="">
+            </div>
+
+            <div class="project-info">
+                <h3>Barakos.com (Prototype)</h3>
+                <p>A website prototype for renting household items for boarding house residents.</p>
+
+                <div class="tech-tags">
+                    <span>html</span><span>css</span><span>javascript</span>
+                </div>
+
+                <div class="project-buttons">
+                    <button class="btn-preview"
+                        onclick="openModal(
+                            ['img/barakos.png','img/barakos1.png'],
+                            'Barakos Website',
+                            'A website prototype for renting items, especially household necessities.'
+                        )">
+                        <i class="fa-solid fa-eye"></i> Preview
+                    </button>
+
+                    <a href="#" target="_blank" class="btn-github">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card-v2 fade-in">
+
+            <div class="project-thumb"
+                onclick="openModal(
+                    ['img/iot.png'],
+                    'IoT Smart Home',
+                    'Smart clothesline using ESP32 with rain & light sensors, controllable remotely.'
+                )">
+                <img src="img/iot.png" alt="">
+            </div>
+
+            <div class="project-info">
+                <h3>Smart Clothesline Based on Blynk</h3>
+                <p>IoT system that monitors weather conditions and automatically protects clothes from rain.</p>
+
+                <div class="tech-tags">
+                    <span>esp32</span><span>blynk</span><span>iot</span>
+                </div>
+
+                <div class="project-buttons">
+                    <button class="btn-preview"
+                        onclick="openModal(
+                            ['img/iot.png'],
+                            'IoT Smart Home',
+                            'IoT smart clothesline using sensor-based automation.'
+                        )">
+                        <i class="fa-solid fa-eye"></i> Preview
+                    </button>
+
+                    <a href="https://github.com/TheodoreMarvin/smart-home-prototype"
+                       target="_blank" class="btn-github">
+                       <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROJECT 3 (REFUN) -->
+        <div class="project-card-v2 fade-in">
+
+            <div class="project-thumb"
+                onclick="openModal(
+                    [
+                        'img/refun.png',
+                        'img/refun1.jpg','img/refun2.jpg','img/refun3.jpg',
+                        'img/refun4.jpg','img/refun5.jpg','img/refun6.jpg',
+                        'img/ro1.jpg','img/ro2.jpg','img/ro3.jpg'
+                    ],
+                    'REFUN App',
+                    'An app that exchanges plastic bottles for digital reward points.'
+                )">
+                <img src="img/refun.png" alt="">
+            </div>
+
+            <div class="project-info">
+                <h3>REFUN App</h3>
+                <p>Android app that converts used plastic bottles into redeemable digital points.</p>
+
+                <div class="tech-tags">
+                    <span>android</span><span>java</span><span>firebase</span>
+                </div>
+
+                <div class="project-buttons">
+
+                    <button class="btn-preview"
+                        onclick="openModal(
+                            [
+                                'img/refun.png',
+                                'img/refun1.jpg','img/refun2.jpg','img/refun3.jpg',
+                                'img/refun4.jpg','img/refun5.jpg','img/refun6.jpg',
+                                'img/ro1.jpg','img/ro2.jpg','img/ro3.jpg'
+                            ],
+                            'REFUN App',
+                            'Application to exchange plastic bottles for digital points.'
+                        )">
+                        <i class="fa-solid fa-eye"></i> Preview
+                    </button>
+
+                    <a href="https://github.com/alvinjonathann/refun" target="_blank" class="btn-github">
+                        <i class="fa-brands fa-github"></i> GitHub Refun
+                    </a>
+
+                    <a href="https://github.com/alvinjonathann/refun_owner" target="_blank" class="btn-github">
+                        <i class="fa-brands fa-github"></i> GitHub Owner
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+<!-- PROJECT 4 -->
+        <div class="project-card-v2 fade-in">
+
+            <div class="project-thumb"
+                onclick="openModal(
+                    ['img/cisco.png'],
+                    'Cisco Simulation Case Study',
+                    'Network design for 3 floors including devices, media, subnetting & routing.'
+                )">
+                <img src="img/cisco.png" alt="">
+            </div>
+
+            <div class="project-info">
+                <h3>Cisco Simulation Case Study</h3>
+                <p>Network infrastructure design for multilevel building using Packet Tracer.</p>
+
+                <div class="tech-tags">
+                    <span>cisco</span><span>networking</span><span>packet tracer</span>
+                </div>
+
+                <div class="project-buttons">
+                    <button class="btn-preview"
+                        onclick="openModal(
+                            ['img/cisco.png'],
+                            'Cisco Simulation Case Study',
+                            'Network design for 3 floors.'
+                        )">
+                        <i class="fa-solid fa-eye"></i> Preview
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROJECT 5 -->
+        <div class="project-card-v2 fade-in">
+
+            <div class="project-thumb"
+                onclick="openModal(
+                    ['img/ai.png','img/ai1.png','img/ai2.png'],
+                    'AI Based Food Recipes',
+                    'AI-based recipe recommendation system.'
+                )">
+                <img src="img/ai.png" alt="">
+            </div>
+
+            <div class="project-info">
+                <h3>AI Based Food Recipes</h3>
+                <p>AI that recommends recipes based on the dish name or main ingredient.</p>
+
+                <div class="tech-tags">
+                    <span>python</span><span>ai</span><span>ml</span>
+                </div>
+
+                <div class="project-buttons">
+                    <button class="btn-preview"
+                        onclick="openModal(
+                            ['img/ai.png','img/ai1.png','img/ai2.png'],
+                            'AI Based Food Recipes',
+                            'AI food recipe recommender.'
+                        )">
+                        <i class="fa-solid fa-eye"></i> Preview
+                    </button>
+
+                    <a href="https://github.com/J3Bb/AI-based-food-recipes" target="_blank" class="btn-github">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- MODAL POPUP -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content fade-in">
+
+            <span class="close" onclick="closeModal()">&times;</span>
+
+            <div class="modal-slider">
+                <div class="slides" id="slidesContainer"></div>
+
+                <button class="slider-btn prev" id="btnPrev">❮</button>
+                <button class="slider-btn next" id="btnNext">❯</button>
+
+                <div class="slider-dots" id="sliderDots"></div>
+            </div>
+
+            <h3 id="modalTitle"></h3>
+            <p id="modalDesc"></p>
+
+        </div>
+    </div>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section fade-in">
+        <h2>Experiences</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Bina Nusantara University</h3>
+                    <span class="timeline-date">2023 - Present</span>
+                    <p>Bachelor of Computer Science – focused on web development, IoT, and computer networks, with hands-on experience in related academic projects and growing technical skills. </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Community Service Volunteer – Tech & Media Division</h3>
+                    <span class="timeline-date">2022 - Present</span>
+                    <p>Set up sound system, projection, and lighting
+                        <br>Operated cameras and video equipment
+                        <br>Designed posters and announcements
+                        <br>Managed schedules and event logistics
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>(International Experience) Explore, Exhibit, Experience (E3)</h3>
+                    <span class="timeline-date">2025</span>
+                    <p>Participated in the E3 International Immersion Program in Malaysia and Singapore, exploring cross-cultural collaboration, creative industries, and technology innovation.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>(Programming Contest) ICPC Asia Jakarta - National Contest</h3>
+                    <span class="timeline-date">2024</span>
+                    <p>Participated in the ICPC (International Collegiate Programming Contest), a national-level online programming competition that challenges problem-solving and algorithmic thinking skills.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills-section fade-in">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>Technical Skills</h3>
+                <div class="skill-items">
+                    <span class="skill-badge">HTML</span>
+                    <span class="skill-badge">CSS</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">Figma</span>
+                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">C++</span>
+                    <span class="skill-badge">Unity</span>
+                    <span class="skill-badge">Arduino IDE</span>
+                    <span class="skill-badge">Network(Beginner)</span>
+                    <span class="skill-badge">MySQL</span>
+                    <span class="skill-badge">ESP32</span>
+                    <span class="skill-badge">IoT Sensors</span>
+                    <span class="skill-badge">IT Support</span>
+                    <span class="skill-badge">Microsoft office</span>
+                    <span class="skill-badge">AnyDesk</span>
+                    <span class="skill-badge">OBS Studio</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>Soft Skills</h3>
+                <div class="skill-items">
+                    <span class="skill-badge">Leadership</span>
+                    <span class="skill-badge">Teamwork</span>
+                    <span class="skill-badge">Problem Solving</span>
+                    <span class="skill-badge">Time Management</span>
+                    <span class="skill-badge">Communication</span>
+                    <span class="skill-badge">Responsibility</span>
+                    <span class="skill-badge">Event organizing</span>
+                    <span class="skill-badge">English</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section fade-in">
+
+    <h2 class="contact-title">
+        Let’s <span>Connect</span>
+    </h2>
+
+    <p class="contact-subtitle">
+        I'm always open to opportunities, collaborations, or discussions.<br>
+        Feel free to reach out to me anytime!
+    </p>
+
+    <div class="contact-2col">
+
+        <!-- LEFT CARD: GET IN TOUCH -->
+        <div class="contact-card-big">
+            <h3>Get in Touch</h3>
+
+            <div class="contact-line">
+                <div class="contact-icon-lg email"></div>
+                <div>
+                    <h4>Email</h4>
+                    <p>ivan.hernando@binus.ac.id</p>
+                </div>
+            </div>
+
+            <div class="contact-line">
+                <div class="contact-icon-lg phone"></div>
+                <div>
+                    <h4>Phone</h4>
+                    <p>+62-815-7349-8299</p>
+                </div>
+            </div>
+
+            <div class="contact-line">
+                <div class="contact-icon-lg location"></div>
+                <div>
+                    <h4>Location</h4>
+                    <p>Bandung, Indonesia</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- RIGHT CARD: CONNECT WITH ME -->
+        <div class="contact-card-big">
+            <h3>Connect with Me</h3>
+
+            <div class="contact-grid-social">
+
+                <a href="https://github.com/j3Bb" class="contact-btn">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+
+                <a href="https://linkedin.com/in/ivan-hernando" class="contact-btn">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+
+                <a href="mailto:ivan.hernando@binus.ac.id" class="contact-btn">
+                    <i class="fa-solid fa-envelope"></i> Email
+                </a>
+
+                <a href="https://wa.me/6281573498299" class="contact-btn">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
